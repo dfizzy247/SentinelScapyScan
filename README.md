@@ -144,6 +144,20 @@ sentinelscapyscan report scan_results.json -o report.html
 sentinelscapyscan version
 ```
 
+## 📸 Screenshots
+
+### Running a Scan in Terminal
+
+![Running Scan in Terminal](running_scan_in_terminal.png)
+
+*Real-time scan progress with rich terminal output, showing port scanning and service fingerprinting in action.*
+
+### Scan Dashboard Report
+
+![Scan Dashboard](scan_dashboard.png)
+
+*Beautiful HTML dashboard with detailed scan results, statistics, and service information.*
+
 ## 🏗️ Architecture
 
 ```
