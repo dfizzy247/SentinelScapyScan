@@ -1,0 +1,99 @@
+# SentinelScapyScan Configuration Example
+# Copy this file to config.yaml and customize as needed
+
+scan:
+  # Timeout for network operations (seconds)
+  timeout: 3
+  
+  # Number of retry attempts
+  retry_count: 2
+  
+  # Maximum concurrent scans
+  max_concurrent_scans: 10
+  
+  # Enable UDP scanning (slower but more comprehensive)
+  enable_udp: false
+  
+  # Enable service fingerprinting
+  enable_fingerprinting: true
+  
+  # Skip ICMP ping check (useful for hosts blocking ICMP)
+  skip_ping: false
+
+ports:
+  # Default TCP ports to scan
+  default_tcp_ports:
+    - 21    # FTP
+    - 22    # SSH
+    - 23    # Telnet
+    - 25    # SMTP
+    - 53    # DNS
+    - 80    # HTTP
+    - 110   # POP3
+    - 111   # RPC
+    - 135   # MSRPC
+    - 139   # NetBIOS
+    - 143   # IMAP
+    - 443   # HTTPS
+    - 445   # SMB
+    - 993   # IMAPS
+    - 995   # POP3S
+    - 1723  # PPTP
+    - 3306  # MySQL
+    - 3389  # RDP
+    - 5900  # VNC
+    - 8080  # HTTP-Proxy
+    - 8443  # HTTPS-Alt
+  
+  # Default UDP ports to scan
+  default_udp_ports:
+    - 53    # DNS
+    - 123   # NTP
+    - 161   # SNMP
+    - 162   # SNMP Trap
+    - 514   # Syslog
+
+fingerprinting:
+  # Enable banner grabbing
+  grab_banners: true
+  
+  # Enable HTTP fingerprinting
+  http_fingerprint: true
+  
+  # Enable TLS fingerprinting
+  tls_fingerprint: true
+  
+  # Maximum concurrent fingerprinting operations
+  max_concurrent_fingerprints: 10
+
+reporting:
+  # Output directory for reports
+  output_dir: "reports"
+  
+  # Generate JSON report
+  generate_json: true
+  
+  # Generate HTML report
+  generate_html: true
+  
+  # Generate CSV report
+  generate_csv: false
+  
+  # Pretty-print JSON (more readable but larger file size)
+  pretty_json: true
+
+logging:
+  # Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Enable logging to file
+  log_to_file: true
+  
+  # Log file path
+  log_file: "logs/sentinelscapyscan.log"
+  
+  # Maximum log file size in bytes (10 MB)
+  max_log_size: 10485760
+  
+  # Number of backup log files to keep
+  backup_count: 5
