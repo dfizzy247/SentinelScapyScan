@@ -1,6 +1,6 @@
 # 🛡️ SentinelScapyScan
 
-[![CI](https://github.com/yourusername/SentinelScapyScan/workflows/CI/badge.svg)](https://github.com/yourusername/SentinelScapyScan/actions)
+[![CI](https://github.com/dfizzy247/SentinelScapyScan/workflows/CI/badge.svg)](https://github.com/dfizzy247/SentinelScapyScan/actions)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -54,7 +54,7 @@ A modular, production-ready cybersecurity automation suite for network scanning,
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SentinelScapyScan.git
+git clone https://github.com/dfizzy247/SentinelScapyScan.git
 cd SentinelScapyScan
 
 # Install dependencies
@@ -68,7 +68,7 @@ poetry shell
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SentinelScapyScan.git
+git clone https://github.com/dfizzy247/SentinelScapyScan.git
 cd SentinelScapyScan
 
 # Install in development mode
@@ -150,13 +150,13 @@ sentinelscapyscan version
 
 ![Running Scan in Terminal](running_scan_in_terminal.png)
 
-*Real-time scan progress with rich terminal output, showing port scanning and service fingerprinting in action.*
+*Real-time scan progress with rich terminal output showing port scanning and service fingerprinting*
 
 ### Scan Dashboard Report
 
 ![Scan Dashboard](scan_dashboard.png)
 
-*Beautiful HTML dashboard with detailed scan results, statistics, and service information.*
+*Beautiful HTML report dashboard with detailed scan results, statistics, and service information*
 
 ## 🏗️ Architecture
 
@@ -367,8 +367,8 @@ For detailed documentation, see:
 ## 💬 Support
 
 - 📧 Email: support@sentinelscapyscan.example
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/SentinelScapyScan/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/SentinelScapyScan/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/dfizzy247/SentinelScapyScan/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/dfizzy247/SentinelScapyScan/discussions)
 
 ## 🙏 Acknowledgments
 
